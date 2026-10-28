@@ -1,5 +1,5 @@
 ---
-foto: file_000000000e2c81f4baf206c242292611.png
+foto: erwtensoep.jpg
 title: Erwtensoep
 soort: Soep
 personen: 6
