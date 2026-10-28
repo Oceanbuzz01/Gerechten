@@ -7,6 +7,7 @@ layout: default
   {% for recept in recepten %}
   <li>
     <a href="{{ recept.url | relative_url }}">
+      {% if recept.foto %}<img src="{{ '/fotos/' | append: recept.foto | relative_url }}" alt="">{% endif %}
       <strong>{{ recept.title }}</strong>
       <span>{{ recept.soort }}{% if recept.tijd %} · {{ recept.tijd }}{% endif %}</span>
     </a>
