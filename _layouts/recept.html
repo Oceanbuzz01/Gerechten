@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="recept">
+  <a class="terug" href="{{ '/' | relative_url }}">← Alle gerechten</a>
+  <h1>{{ page.title }}</h1>
+  <p class="info">
+    {% if page.personen %}<span>👥 {{ page.personen }} personen</span>{% endif %}
+    {% if page.tijd %}<span>⏱ {{ page.tijd }}</span>{% endif %}
+    {% if page.soort %}<span>🍽 {{ page.soort }}</span>{% endif %}
+  </p>
+  {% if page.omschrijving %}<p class="omschrijving">{{ page.omschrijving }}</p>{% endif %}
+  {{ content }}
+</article>

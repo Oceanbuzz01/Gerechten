@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>Gerechten</h1>
+<ul class="lijst">
+  {% assign recepten = site.recepten | sort: "title" %}
+  {% for recept in recepten %}
+  <li>
+    <a href="{{ recept.url | relative_url }}">
+      <strong>{{ recept.title }}</strong>
+      <span>{{ recept.soort }}{% if recept.tijd %} · {{ recept.tijd }}{% endif %}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,18 @@
+# Instellingen van de website
+title: Mijn keuken
+description: Mijn verzameling favoriete gerechten
+lang: nl
+baseurl: "/gerechten"
+
+# Elk bestand in de map _recepten wordt een eigen pagina
+collections:
+  recepten:
+    output: true
+    permalink: /recepten/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: recepten
+    values:
+      layout: recept

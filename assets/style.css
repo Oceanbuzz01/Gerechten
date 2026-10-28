@@ -1,0 +1,24 @@
+:root { --accent: #b5532b; --tekst: #2b2622; --zacht: #f7f2ec; --lijn: #e6ddd2; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: var(--tekst);
+       background: var(--zacht); line-height: 1.6; }
+main { max-width: 680px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+.site-header { background: var(--accent); padding: 1rem 1.25rem; }
+.site-title { color: #fff; text-decoration: none; font-size: 1.4rem; font-weight: bold; }
+h1 { font-size: 2rem; margin: .5rem 0 1rem; }
+h2 { font-size: 1.25rem; border-bottom: 2px solid var(--lijn); padding-bottom: .25rem; margin-top: 2rem; }
+.lijst { list-style: none; padding: 0; margin: 0; }
+.lijst li { margin-bottom: .75rem; }
+.lijst a { display: block; background: #fff; border: 1px solid var(--lijn); border-radius: 10px;
+           padding: 1rem 1.1rem; text-decoration: none; color: inherit; }
+.lijst a:hover { border-color: var(--accent); }
+.lijst strong { display: block; font-size: 1.15rem; color: var(--accent); }
+.lijst span { font-size: .9rem; color: #776b60; font-family: system-ui, sans-serif; }
+.terug { color: var(--accent); text-decoration: none; font-family: system-ui, sans-serif; font-size: .9rem; }
+.info { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-family: system-ui, sans-serif;
+        font-size: .9rem; color: #776b60; }
+.omschrijving { font-style: italic; }
+.recept ul, .recept ol { padding-left: 1.3rem; }
+.recept li { margin-bottom: .35rem; }
+.site-footer { text-align: center; color: #998c80; font-size: .85rem; padding: 2rem 1rem;
+               font-family: system-ui, sans-serif; }
