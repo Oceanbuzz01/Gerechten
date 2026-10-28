@@ -2,7 +2,7 @@
 title: Mijn keuken
 description: Mijn verzameling favoriete gerechten
 lang: nl
-baseurl: "/gerechten"
+baseurl: "/Gerechten"
 
 # Elk bestand in de map _recepten wordt een eigen pagina
 collections:
