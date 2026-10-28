@@ -1,9 +1,10 @@
 ---
+Foto: file_000000000e2c81f4baf206c242292611.png
 title: Erwtensoep
 soort: Soep
 personen: 6
 tijd: 2,5 uur
-omschrijving: Dikke snert voor koude winterdagen.
+omschrijving: Goed gevulde erwtensoep. Altijd lekker!!
 ---
 
 ## Ingrediënten
