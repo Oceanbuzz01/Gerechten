@@ -1,23 +1,25 @@
-/* KLEUREN: pas hier de kleurcodes aan */
-:root { --accent: #5b7b3a; --tekst: #2d2a24; --zacht: #faf6ee; --lijn: #e6dcc8; }
+/* KLEUREN: pas hier de kleurcodes aan
+   --accent = tomatenrood, --geel = okergeel */
+:root { --accent: #d1381c; --geel: #e3a008; --tekst: #2a1f1a; --zacht: #fff3d4; --lijn: #f0d48a; }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: var(--tekst);
        background: var(--zacht); line-height: 1.6; }
 main { max-width: 680px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
-.site-header { background: var(--accent); padding: 1rem 1.25rem; }
+.site-header { background: var(--accent); padding: 1rem 1.25rem; border-bottom: 6px solid var(--geel); }
 .site-title { color: #fff; text-decoration: none; font-size: 1.4rem; font-weight: bold; }
 h1 { font-size: 2rem; margin: .5rem 0 1rem; }
-h2 { font-size: 1.25rem; border-bottom: 2px solid var(--lijn); padding-bottom: .25rem; margin-top: 2rem; }
+h2 { font-size: 1.25rem; color: var(--accent); border-bottom: 3px solid var(--geel); padding-bottom: .25rem; margin-top: 2rem; }
 .lijst { list-style: none; padding: 0; margin: 0; }
 .lijst li { margin-bottom: .75rem; }
 .lijst a { display: block; background: #fff; border: 1px solid var(--lijn); border-radius: 10px;
-           padding: 1rem 1.1rem; text-decoration: none; color: inherit; }
+           padding: 1rem 1.1rem; text-decoration: none; color: inherit;
+           border-left: 6px solid var(--geel); }
 .lijst a:hover { border-color: var(--accent); }
 .lijst strong { display: block; font-size: 1.15rem; color: var(--accent); }
-.lijst span { font-size: .9rem; color: #7a6f5c; font-family: system-ui, sans-serif; }
+.lijst span { font-size: .9rem; color: #6b4f2a; font-family: system-ui, sans-serif; }
 .terug { color: var(--accent); text-decoration: none; font-family: system-ui, sans-serif; font-size: .9rem; }
 .info { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-family: system-ui, sans-serif;
-        font-size: .9rem; color: #7a6f5c; }
+        font-size: .9rem; color: #6b4f2a; }
 .omschrijving { font-style: italic; }
 .recept ul, .recept ol { padding-left: 1.3rem; }
 .recept li { margin-bottom: .35rem; }
@@ -26,4 +28,4 @@ h2 { font-size: 1.25rem; border-bottom: 2px solid var(--lijn); padding-bottom: .
 .foto { width: 100%; max-height: 420px; object-fit: cover; border-radius: 10px; margin: .25rem 0 .75rem; }
 .lijst a { overflow: hidden; }
 .lijst img { width: calc(100% + 2.2rem); margin: -1rem -1.1rem .75rem; height: 180px; object-fit: cover; display: block; }
-.intro { margin: -.5rem 0 1.5rem; color: #7a6f5c; font-size: 1.1rem; }
+.intro { margin: -.5rem 0 1.5rem; color: #6b4f2a; font-size: 1.1rem; }
